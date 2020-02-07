@@ -2,6 +2,9 @@
 
 from setuptools import setup
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name='hashmerge',
     version='0.1',
@@ -13,7 +16,8 @@ setup(
     include_package_data=False,
     zip_safe=False,
     py_modules=['hashmerge'],
-    long_description="",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
