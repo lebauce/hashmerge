@@ -28,10 +28,10 @@ These are (currently):
 ```
     import hashmerge
     merger = hashmerge.HashMerge()
-    print merger.merge({'d': 123, 'l': [1]}, {'e': 456, 'l': [2]})
+    print(merger.merge({'d': 123, 'l': [1]}, {'e': 456, 'l': [2]}))
 
     merger2 = hashmerge.HashMerge(hashmerge.RIGHT_PRECEDENT)
-    print merger2.merge({'d': 123, 'l': [1]}, {'e': 456, 'l': [2]})
+    print(merger2.merge({'d': 123, 'l': [1]}, {'e': 456, 'l': [2]}))
 ```
 
 ## Left Precedence
