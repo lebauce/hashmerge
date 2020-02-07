@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='hashmerge',
-    version='0.1',
+    version='0.2',
     url='https://github.com/lebauce/hashmerge',
     author='Sylvain Baubeau',
     author_email='bob@glumol.com',
